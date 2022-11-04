@@ -1,6 +1,6 @@
 ## Retos de programación
 
-Proyecto de retos semanales obtenidos de la comunidad para practicar lógica de programación.
+Proyecto de retos de programnación obtenidos de la comunidad y de internet para practicar lógica de programación.
 
 En cada carpeta está el reto propuesto para practicar, cada ejercicio puede tener diferente tipo de dificultad.
 
