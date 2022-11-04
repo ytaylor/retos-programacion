@@ -1,4 +1,4 @@
-##Retos de programación
+## Retos de programación
 
 Proyecto de retos semanales obtenidos de la comunidad para practicar lógica de programación.
 
