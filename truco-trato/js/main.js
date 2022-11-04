@@ -53,7 +53,7 @@ function getRandomNumber(max) {
 const getRandomIcons = (listIcons, number) => {
     for (let index = 0; index < number; index++) {
         const randomIcon = getRandomNumber(listIcons.length);
-        console.log(iconsTrick[randomIcon - 1]);
+        console.log(listIcons[randomIcon - 1]);
     }
 }
 
@@ -93,7 +93,6 @@ const giveMeTrick = () => {
     getRandomIcons(iconsTrick, numberIconsTall * 3);
 
 }
-giveMeTrick();
 
 
 /*Si las personas han pedido trato, el programa retornará dulces (aleatorios)
@@ -129,3 +128,6 @@ function giveMeDeal() {
         }
     }
 }
+
+//Ejecuto una función u otra en dependencia del tipo de Truco
+type === 'Truco' ? giveMeTrick() : giveMeDeal();
