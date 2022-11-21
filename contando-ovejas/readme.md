@@ -8,26 +8,28 @@ Por ejemplo, si tenemos las ovejas:
 
 ```js
 const ovejas = [
-  { name: 'Noa', color: 'azul' },
-  { name: 'Euge', color: 'rojo' },
-  { name: 'Navidad', color: 'rojo' },
-  { name: 'Ki Na Ma', color: 'rojo'},
-  { name: 'AAAAAaaaaa', color: 'rojo' },
-  { name: 'Nnnnnnnn', color: 'rojo'}
-]
+  {name: 'Noa', color: 'azul'},
+  {name: 'Euge', color: 'rojo'},
+  {name: 'Navidad', color: 'rojo'},
+  {name: 'Ki Na Ma', color: 'rojo'},
+  {name: 'AAAAAaaaaa', color: 'rojo'},
+  {name: 'Nnnnnnnn', color: 'rojo'},
+];
+```
 
 Al ejecutar el método debería devolver lo siguiente:
 
-const ovejasFiltradas = contarOvejas(ovejas)
+```js
+const ovejasFiltradas = contarOvejas(ovejas);
 
-console.log(ovejasFiltradas)
+console.log(ovejasFiltradas);
 
 // [{ name: 'Navidad', color: 'rojo' },
-//  { name: 'Ki Na Ma', color: 'rojo' }]
+// { name: 'Ki Na Ma', color: 'rojo' }]
+```
 
 Recuerda. Debe contener las dos letras 'a' y 'n' en el nombre. No cuentes ovejas que sólo tenga una de las letras, debe tener ambas.
 
-
-
+```
 
 ```
