@@ -1,6 +1,6 @@
-> Obtenido de https://retosdeprogramacion.com/ > [Reto en Github de Mouredev](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin/blob/main/app/src/main/java/com/mouredev/weeklychallenge2022/Challenge43.kt)
+> Obtenido de https://adventjs.dev/challenges/01
 
-**Enunciado: Este es un reto especial por Halloween.**
+**Enunciado: Contando ovejitas.**
 
 Considera una lista/array de ovejas. Cada oveja tiene un nombre y un color. Haz una función que devuelva una lista con todas las ovejas que sean de color rojo y que además su nombre contenga tanto las letras n Y a, sin importar el orden, las mayúsculas o espacios.
 
